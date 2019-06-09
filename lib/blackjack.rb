@@ -43,11 +43,11 @@ def hit?(card_total)
     return card_total
   elsif user_input == "s"
   #  puts "you decided to stay at #{card_total}"
-#    return card_total
+    return card_total
   else
     invalid_command
     prompt_user
-#    return card_total
+    return card_total
   end
 #  return card_total
 end

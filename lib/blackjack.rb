@@ -62,9 +62,4 @@ def runner
   # code runner here
 end
     
-#card_total=0
-#deal_card
 
-#initial_round
-
-#hit?(card_total)

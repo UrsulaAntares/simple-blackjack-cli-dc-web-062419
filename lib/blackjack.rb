@@ -36,12 +36,12 @@ end
 
 def hit?(card_total)
   prompt_user
-  get_user_input
-  if get_user_input == "h"
+  user_input = get_user_input
+  if user_input == "h"
     deal_card
     card_total = card_total + deal_card
     return card_total
-  elsif get_user_input == "s"
+  elsif user_input == "s"
     puts "you decided to stay at #{card_total}"
     return card_total
   else

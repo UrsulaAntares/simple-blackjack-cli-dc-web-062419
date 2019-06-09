@@ -42,7 +42,7 @@ def hit?(card_total)
     card_total = card_total + deal_card
     return card_total
   elsif user_input == "s"
-    puts "you decided to stay at #{card_total}"
+  #  puts "you decided to stay at #{card_total}"
     return card_total
   else
     invalid_command
